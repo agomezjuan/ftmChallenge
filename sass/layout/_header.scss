@@ -1,0 +1,35 @@
+/* -------------------------------------------------- *\
+    #HEADER
+\* -------------------------------------------------- */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 175px;
+    padding: 120px 15px 30px;
+    background: {
+        image: url('../images/bg-header-mobile.png');
+        repeat: no-repeat;
+        position: top center;
+        size: cover;
+    }
+
+    .logo {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+        color: $titlesColor;
+        margin: 20px 10px;
+    }
+
+    p {
+        margin-bottom: 40px;
+    }
+}

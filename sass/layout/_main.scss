@@ -1,3 +1,36 @@
 /* -------------------------------------------------- *\
     #MAIN SECTION
 \* -------------------------------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // .snippets, .workflow, .
+    padding: 50px 15px 20px;
+
+    h2 {
+        font-size: 2.6rem;
+        padding-top: 10px;
+    }
+
+    p {
+        padding: 10px;
+    }
+
+    .computer {
+        width: 100%;
+        padding: 40px 10px;
+
+        img {
+            width: 100%;
+        }
+    }
+    .downloads {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    @import '../components/buttons'
+}

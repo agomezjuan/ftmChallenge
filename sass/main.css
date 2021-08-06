@@ -21,6 +21,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   text-align: center;
+  color: #4c545d;
 }
 
 p {
@@ -46,11 +47,21 @@ p {
   background-color: #26baa4;
   border-bottom: 4px solid #03a7a7;
   box-shadow: 0px 5px 15px #26baa48f;
+  transition: opacity 200ms;
+}
+
+.button-green:hover {
+  opacity: 0.85;
 }
 
 .button-blue {
   background-color: #6173ff;
   border-bottom: 4px solid #4e5bc1;
+  transition: opacity 200ms;
+}
+
+.button-blue:hover {
+  opacity: 0.85;
 }
 
 /* -------------------------------------------------- *\
@@ -84,6 +95,38 @@ header h1 {
 
 header p {
   margin-bottom: 40px;
+}
+
+header .button {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 25px;
+}
+
+header .button-green {
+  background-color: #26baa4;
+  border-bottom: 4px solid #03a7a7;
+  box-shadow: 0px 5px 15px #26baa48f;
+  transition: opacity 200ms;
+}
+
+header .button-green:hover {
+  opacity: 0.85;
+}
+
+header .button-blue {
+  background-color: #6173ff;
+  border-bottom: 4px solid #4e5bc1;
+  transition: opacity 200ms;
+}
+
+header .button-blue:hover {
+  opacity: 0.85;
 }
 
 /* -------------------------------------------------- *\

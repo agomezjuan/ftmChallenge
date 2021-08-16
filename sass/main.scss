@@ -3,11 +3,11 @@
 @import 'base/reset';
 @import 'components/buttons';
 
+// Media queries
+@import 'base/medias';
+
 // Maquetación
 @import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
 
-
-// Media queries
-@import 'base/medias'
